@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Когда мы инициализируем репозиторий, создается новая папка .git, в которой
+находится вся информация о репозитории, коммитах и истории файлов. Эта
+папка помогает держать всю нужную информацию в удобном и скрытом виде
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area отличается от рабочей дериктории тем, что в нее можно добавлять
+файлы по-одному. Я считаю, что это довольно важный концепт, потому что
+это помогает коммитить файлы одиночно.
