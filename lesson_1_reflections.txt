@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Использование diff для нахождения разницы в файлах помогло нам найти баги,
+потому что мы смогли с легкостью найти строку с ошибкой, увидеть правильный
+вариант и исправить ее. Или же если этой строки ранее и вовсе не существовало,
+то мы увидем добавление этой строки, прочитаем ее и нашли в ней нашу ошибку.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Легкий доступ к полной истории файла дает нам возможность все также
+просматривать и находить ошибки, но делать это в миллионы раз эффективнее.
+Мы не засоряем файловую систему мусором, не путаемся в многочисленных файлах
+и легко находим версии файлов столетней давности без необходимости поиска
+правильной версии в многочисленных файлах.
+
+
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Плюсы:
+  Легче везти слежку за версиями, намного меньше мусора
+  Сохранненая версия всегда будет в рабочем состоянии(не будет сохраняться посередине строки)
+Минусы:
+  Иногда можно забывать сохраняться
+  Надо тратить время и силы, чтоб вручную сохраняться
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Т.к. git чаще всего используется для программирования, где проект - это одно
+целое и все файлы связаны между собой, то очень важно сохранять весь проект.
+А в gdocs большенство файлов не связаны друг с другом, и из-за этого файлы и
+сохраняются по отдельности
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Мы можем использовать git log и git diff для просмотра истории файлов, потому
+что с помощью этих команд можно без проблем увидеть, что было изменено в
+файле(ах) по сравнению с предыдущей версией.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Контроль версий сделает нас более самоуверенными, потому что меняя что-либо
+мы всегда можем "откатиться" к предыдущему состоянию или же сравнить обе
+версии, чтою найти ошибку.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Я хочу попробовать git для контроля версий для моих будущих проектов и просто
+для себя на будущее
