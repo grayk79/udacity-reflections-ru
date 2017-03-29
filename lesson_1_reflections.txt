@@ -46,9 +46,9 @@ How can you use the commands git log and git diff to view the history of files?
 
 How might using version control make you more confident to make changes that could break something?
 
-Контроль версий сделает нас более самоуверенными, потому что меняя что-либо
+Контроль версий сделает нас более самоуверенными, потому что меняя что-либо,
 мы всегда можем "откатиться" к предыдущему состоянию или же сравнить обе
-версии, чтою найти ошибку.
+версии, чтоб найти ошибку.
 
 
 Now that you have your workspace set up, what do you want to try using Git for?
