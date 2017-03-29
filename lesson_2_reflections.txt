@@ -37,3 +37,10 @@ How do the diagrams help you visualize the branch structure?
 Диаграммы помогают нам визуализировать структуру ветвей, т.к. они показывают
 правильный порядок коммитов и с помощью их мы можем очень легко разобраться
 в ветвях и все тех же коммитах
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Результатом скрещивания двух ветвей стала одна ветвь, имеющая все функции тех
+двух и предоставляющая доступ к истории всех изменений из обеих ветвей
